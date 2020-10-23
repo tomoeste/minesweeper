@@ -1,0 +1,87 @@
+.statusBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  width: calc(100% - 8px);
+  padding: 4px;
+  border-top: 4px solid rgb(201, 201, 201);
+}
+
+.value {
+  font-size: 78px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 2px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px 0px 0px 8px;
+  padding: 6px 12px;
+  outline: none;
+  border: 2px solid rgb(201, 201, 201);
+  color: rgba(128, 99, 187, 0.795);
+  padding-bottom: 4px;
+  cursor: pointer;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 2px;
+  transition: border 0.15s;
+}
+
+.button:first-of-type {
+  margin: 0px;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
+.form {
+  font-size: 14px;
+  padding: 0px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.inlineButtonGroup {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 8px;
+  color: rgb(77, 77, 77);
+}
+
+.label:first-of-type {
+  margin: 0;
+}
+
+.textField {
+  font-size: 14px;
+  padding: 3px 6px;
+  width: 64px;
+  margin: 4px 0px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 4px;
+}
+
+.error {
+  color: tomato !important;
+}

@@ -1,0 +1,51 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uncovered {
+  background-color: lightgrey;
+}
+
+.value {
+  font-size: 78px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 2px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 16px;
+  width: 28px;
+  height: 28px;
+  outline: none;
+  border: 1px solid rgb(201, 201, 201);
+  margin: 0px;
+  color: rgb(112, 76, 182);
+  padding: 0px;
+  cursor: pointer;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 0px;
+  transition: border 0.15s;
+}
+
+.textbox {
+  font-size: 32px;
+  padding: 2px;
+  width: 64px;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}

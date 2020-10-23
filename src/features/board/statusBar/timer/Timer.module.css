@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 32px;
+  padding: 5px;
+  font-size: 24px;
+  line-height: 0.8;
+  background-color: rgba(112, 76, 182, 0.1);
+  border: 2px solid rgb(201, 201, 201);
+}
