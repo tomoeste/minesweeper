@@ -45,7 +45,6 @@ export function Settings(props: any) {
         }}
         validationSchema={settingsSchema}
         onSubmit={(values, actions) => {
-          console.log("form submit");
           const totalCells = values.height * values.width;
           if (values.mines > totalCells - 1) {
             actions.setFieldError(

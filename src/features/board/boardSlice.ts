@@ -1,8 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { AppThunk, RootState } from "../../app/store";
 
-// TODO: move mine on first click, testing
-
 export enum cellStates {
   covered,
   uncovered,
